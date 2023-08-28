@@ -20,6 +20,7 @@ services:
     volumes:
       - /path/to/site:/data
     command: hugo version
+```
 
 ## Building
 
