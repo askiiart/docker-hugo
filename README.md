@@ -24,6 +24,12 @@ services:
 
 ## Building
 
+### Manually
+
 1. Download Dart Sass (linux-x64) from [here](https://github.com/sass/dart-sass/releases/latest), and extract it with `tar -xzf dart-sass-*.tar.gz`
 2. Download Hugo from (linux-amd64) from [here](https://github.com/gohugoio/hugo/releases/latest) and extract it with `tar -xzf hugo_*_linux-amd64.tar.gz --one-top-level`
 3. Run `docker build .`
+
+### Automatically
+
+1. Edit and run `./download-build-push.sh`
