@@ -5,6 +5,8 @@ steps:
 - name: Download dart sass and hugo
   image: debian:stable-slim
   commands:
+  - 'apt-get update'
+  - 'apt-get install -y curl'
   - '/drone/src/download.sh'
 - name: build and publish docker image
   image: plugins/docker
