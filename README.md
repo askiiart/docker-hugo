@@ -1,5 +1,7 @@
 # docker-hugo
 
+[![Build Status](https://drone.askiiart.net/api/badges/askiiart/docker-hugo/status.svg)](https://drone.askiiart.net/askiiart/docker-hugo)
+
 Hugo in a Docker container
 
 ## Running
