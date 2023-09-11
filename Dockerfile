@@ -3,3 +3,4 @@ WORKDIR /data
 COPY dart-sass/sass /bin
 RUN apk add git
 COPY hugo*/hugo /bin
+EXPOSE 1313
